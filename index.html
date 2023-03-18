@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <!--formulario-->
+    <main class="main-form">
+       
+          <div class="text-main">
+             <h2>Nova Conta</h2>
+          </div><!--text-main-->
+          <form action="form.php" method="post" class="form-login">
+              <p>Nome do usuário*</p>
+              <input type="text" name="nome" placeholder="Digite seu Nome:"/>
+              <br>
+              <p>Email*</p>
+              <input type="text" name="Email" placeholder="Digite seu Email:"/>
+              <br>
+              <p>Senha*</p>
+              <input type="password" name="password" placeholder="Digite sua Senha:"/>
+              <br>
+              <p>Confirmaçâo de Senha*</p>
+              <input type="password" name="confirm" placeholder="Confirme sua Senha:"/>
+              <br>
+              <input type="submit" name="açao" value="Cadastrar">
+          </form><!--form-login-->
+       
+    </main><!--main-form-->
+</body>
+</html>
